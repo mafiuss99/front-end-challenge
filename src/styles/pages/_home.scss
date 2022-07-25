@@ -1,0 +1,10 @@
+.home {
+    .list-posts {
+        display: grid;
+
+        @media screen and (min-width: $min-width-desktop) {
+            grid-template-columns: auto auto auto;
+            grid-gap: 20px;
+        }
+    }
+}
