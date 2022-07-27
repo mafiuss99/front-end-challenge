@@ -12,8 +12,8 @@ import { Default } from "./theme/Default";
 
 export const App = () => (
   <>
-    <Default>
-      <BrowserRouter>
+    <BrowserRouter>
+      <Default>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/post/:slug" element={<Single/>} />
@@ -21,7 +21,7 @@ export const App = () => (
           <Route path="/tag/:slug" element={<Archive/>} />
           <Route path="*" element={<NotFound404/>} />
         </Routes>
-      </BrowserRouter>
-    </Default>
+      </Default>
+    </BrowserRouter>
   </>
 );

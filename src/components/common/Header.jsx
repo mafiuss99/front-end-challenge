@@ -1,3 +1,10 @@
+import { Link } from 'react-router-dom';
+import Logo from '../../images/logo.webp';
+
 export const Header = () => (
-    <h2>Header</h2>
+    <header>
+        <Link to={`/`} title="Início" className='logo'>
+            <img src={Logo} alt="Logo Blog" />
+        </Link>
+    </header>
 )

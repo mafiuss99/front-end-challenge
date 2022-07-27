@@ -1,3 +1,5 @@
 export const Footer = () => (
-    <h2>Footer</h2>
+    <footer>
+        Todos os direitos reservados - 2022
+    </footer>
 )
